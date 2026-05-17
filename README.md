@@ -1,13 +1,14 @@
-sudo apt update -y
-curl -fsSL https://deb.nodesource.com/setup_20.x | sudo -E bash
-sudo apt update nodejs git -y
-git clone https://github.com/StromBreaker2/todo-list.git
-cd todo-list
-nano .env
-MONGO_URI=mongodb+srv://sushantkoul001_db_user:sushant123@cluster0.f3aovsb.mongodb.net/cc-blog?appName=Cluster0 PORT=3000
-npm install
-cd client
-npm install
-npm run build
-cd ..
-nohup node server.js &
+1) sudo apt update -y
+2) curl -fsSL https://deb.nodesource.com/setup_20.x | sudo -E bash
+3) sudo apt update nodejs git -y
+4) git clone https://github.com/StromBreaker2/todo-list.git
+5) cd todo-list
+6) nano .env
+7) MONGO_URI=mongodb+srv://sushantkoul001_db_user:sushant123@cluster0.f3aovsb.mongodb.net/cc-blog?appName=Cluster0
+   PORT=3000
+8) npm install
+9) cd client
+10) npm install
+11) npm run build
+12) cd ..
+13) nohup node server.js &
