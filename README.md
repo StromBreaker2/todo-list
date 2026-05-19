@@ -1,6 +1,6 @@
 1) sudo apt update -y
 2) curl -fsSL https://deb.nodesource.com/setup_20.x | sudo -E bash
-3) sudo apt update nodejs git -y
+3) sudo apt install nodejs git -y
 4) git clone https://github.com/StromBreaker2/todo-list.git
 5) cd todo-list
 6) nano .env
